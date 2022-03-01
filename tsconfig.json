@@ -1,0 +1,38 @@
+{
+  "exclude": [
+    "node_modules",
+    "dist",
+    "./stories"
+  ],
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "es6",
+    "module": "esnext",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "jsx": "react",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDirs": [
+      "./src",
+      "./stories"
+    ],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+
+  },
+  "include": [
+    "src"
+  ]
+}
